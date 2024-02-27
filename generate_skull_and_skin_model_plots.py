@@ -16,14 +16,7 @@ import os
 import numpy as np
 import mne
 
-fs_anatomy_path = '/storage/prerana/subjects/pd/fsaverage/'
-anatomy_path = '/storage/prerana/subjects/pd/'
-fs_path = '/usr/local/freesurfer/7.4.1-1/'
 
-sensor_cov_path = '/storage/prerana/sensor_covariance_file.fif'
-cov_path = '/storage/prerana/sensor_covariance_file_processed'
-
-overwrite_sensor_cov = False
 
 
 def plot_coregistration(coreg, rec_meta_info, meg_pts, subj_path, data_path):
@@ -41,7 +34,6 @@ def plot_coregistration(coreg, rec_meta_info, meg_pts, subj_path, data_path):
     subj_path : string
                 Path to the subject's freesurfer files.
     """
-    intermediate_save_path = os.path.join(os.path.split(data_path)[0], 'sourceRecIntermediateFiles')
     
     (vert, faces) = nibabel.freesurfer.read_geometry(subj_path + "/surf/lh.seghead")
     vert/= 1000
@@ -94,8 +86,12 @@ def plot_coregistration(coreg, rec_meta_info, meg_pts, subj_path, data_path):
 
 
 def visualize_coregistration(subj_name, data_path):
-    intermediate_save_path = os.path.join(os.path.split(data_path)[0], 'sourceRecIntermediateFiles')
-    subj_anatomy_path = os.path.join(anatomy_path, subj_name) + '/'
+    parsed_data_path = os.path.split(data_path)[0]
+    subj_anatomy_path = os.path.split(parsed_data_path)[0] 
+    anatomy_path = os.path.split(subj_anatomy_path)[0] 
+    subj_anatomy_path = subj_anatomy_path + '/'
+    anatomy_path = anatomy_path + '/'
+    intermediate_save_path = os.path.join(parsed_data_path, 'sourceRecIntermediateFiles')
     
     coreg_rotors_restricted_path = os.path.join(intermediate_save_path,
                                           subj_name+'-'+'coreg_rotors_restricted.npy')
@@ -120,7 +116,7 @@ def visualize_coregistration(subj_name, data_path):
 
 
 
-def generate_skull_skin_plots(subj_name, data_path):
+def generate_skull_skin_plots(subj_name,anatomy_path):
     subj_anatomy_path = os.path.join(anatomy_path, subj_name) + '/'
     
     (ws_in_skull_vert,
@@ -140,37 +136,64 @@ def generate_skull_skin_plots(subj_name, data_path):
                                                subj_anatomy_path)
 
 
-all_subj_dirs = os.listdir(anatomy_path)
-all_subj_dirs.remove('fsaverage')
-#all_subj_dirs.remove('al0008a')
-non_recording_folders = ['bem', 'label', 'mri', 'proj', 'scripts', 'stats', 'surf', 'tmp', 'touch', 'trash', '.is_scaled']
-
-param_list = []
-
-for subj_name in all_subj_dirs:
-    subj_specific_path = os.path.join(anatomy_path, subj_name)
-    subj_subfolders = os.listdir(subj_specific_path)
+def get_all_recording_files(anatomy_path):
+    all_subj_dirs = os.listdir(anatomy_path)
+    if 'fsaverage' in all_subj_dirs:
+        all_subj_dirs.remove('fsaverage')
+    if 'al0008a' in all_subj_dirs:
+        all_subj_dirs.remove('al0008a')
     
-    if len(subj_subfolders) != 0:
-        data_folders = [folder for folder in subj_subfolders if folder not in non_recording_folders ]
+    non_recording_folders = ['bem', 'label', 'mri', 'proj', 'scripts', 'stats', 'surf', 'tmp', 'touch', 'trash', '.is_scaled']
     
+    param_list_file = []
+    param_list_subj = []
     
-    if len(data_folders) > 0:
-        for i in range (len(data_folders)):
-            
-            data_path = os.path.join(subj_specific_path, data_folders[i], 
-                                     data_folders[i]+'.fif')
-            
-            morphed_data_path = os.path.join(subj_specific_path, data_folders[i], 'sourceRecIntermediateFiles',
-                                     subj_name+'-'+'morphed_epoch_data.npy')            
-            
-            
-            parameter_tuple = (subj_name, data_path)
-            if os.path.exists(morphed_data_path):
-                param_list.append(parameter_tuple)
+    for subj_name in all_subj_dirs:
+        subj_specific_path = os.path.join(anatomy_path, subj_name)
+        subj_subfolders = os.listdir(subj_specific_path)
+        
+        if len(subj_subfolders) != 0:
+            data_folders = [folder for folder in subj_subfolders if folder not in non_recording_folders ]
+        
+        
+        if len(data_folders) > 0:
+            for i in range (len(data_folders)):
+                
+                data_path = os.path.join(subj_specific_path, data_folders[i], 
+                                          data_folders[i]+'.fif')
+                
+                morphed_data_path = os.path.join(subj_specific_path, data_folders[i], 'sourceRecIntermediateFiles',
+                                          subj_name+'-'+'morphed_epoch_data.npy')            
                 
                 
-param_list = param_list[0:3]
-for params in param_list:
-    visualize_coregistration(*params)
-    #generate_skull_skin_plots(*params)
+                parameter_tuple = (subj_name, data_path)
+                if os.path.exists(morphed_data_path):
+                    param_list_file.append(parameter_tuple)
+                    
+        subj_tuple = (subj_name, anatomy_path)
+        param_list_subj.append(subj_tuple)
+        
+    return param_list_file, param_list_subj
+
+
+anatomy_path = '/storage/prerana/subjects/'
+conditions = ['pd', 'dy', 'et']
+
+param_list_file = []
+param_list_subj = []
+for condition in conditions:
+    full_anatomy_path = os.path.join(anatomy_path, condition)
+    file_tuples, subj_tuples =  get_all_recording_files(full_anatomy_path)
+    param_list_file = param_list_file+file_tuples
+    param_list_subj = param_list_subj+subj_tuples
+
+
+# for params in param_list_subj: 
+#     print(*params)
+#     generate_skull_skin_plots(*params)
+
+
+for params in param_list_file:
+    print(*params)
+    visualize_coregistration(*params) #Put a break point here
+    
