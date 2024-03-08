@@ -13,6 +13,7 @@ import nibabel.freesurfer
 import scipy.linalg
 import mayavi.mlab
 import os
+import pandas as pd
 import numpy as np
 import mne
 
@@ -142,6 +143,8 @@ def get_all_recording_files(anatomy_path):
         all_subj_dirs.remove('fsaverage')
     if 'al0008a' in all_subj_dirs:
         all_subj_dirs.remove('al0008a')
+    #if 'al0060a' in all_subj_dirs:
+    #    all_subj_dirs.remove('al0060a')
     
     non_recording_folders = ['bem', 'label', 'mri', 'proj', 'scripts', 'stats', 'surf', 'tmp', 'touch', 'trash', '.is_scaled']
     
@@ -176,6 +179,31 @@ def get_all_recording_files(anatomy_path):
     return param_list_file, param_list_subj
 
 
+repository_path = '/home/prerana/Documents/DBS_MEG_MovementDisordersProcessing'
+all_anatomy_path = '/storage/prerana/subjects'
+inspect_file_path = os.path.join(repository_path, 'InspectSkinSkullPlots.csv')
+inspect_file_path = os.path.join(repository_path, 'InspectCoregistrationPlots.csv')
+inspect_file_tab = pd.read_csv(inspect_file_path)    
+
+
+# definitely_redo_watershed_idx = inspect_file_tab['ProblemFlag'] == 1  
+# maybe_redo_watershed_idx = inspect_file_tab['MinorProblemFlag'] == 1  
+
+# redo_watershed_table = inspect_file_tab.loc[(definitely_redo_watershed_idx | maybe_redo_watershed_idx), ['Condition','SubjName']]
+ 
+# for param_i in range(len(redo_watershed_table)): 
+#     if param_i <= -1:
+#         continue
+#     else:
+        
+#         condition = redo_watershed_table.iloc[param_i,0]
+#         subj_name = redo_watershed_table.iloc[param_i,1]
+#         anatomy_path = os.path.join(all_anatomy_path, condition)
+        
+#         print(condition, subj_name)
+        
+#         generate_skull_skin_plots(subj_name, anatomy_path)
+
 anatomy_path = '/storage/prerana/subjects/'
 conditions = ['pd', 'dy', 'et']
 
@@ -188,12 +216,43 @@ for condition in conditions:
     param_list_subj = param_list_subj+subj_tuples
 
 
-# for params in param_list_subj: 
-#     print(*params)
-#     generate_skull_skin_plots(*params)
 
+# for param_i, params in enumerate(param_list_subj): 
+#     if param_i <= 33:
+#         continue
+#     else:
+#         print(*params)1
+#         generate_skull_skin_plots(*params)
 
-for params in param_list_file:
-    print(*params)
-    visualize_coregistration(*params) #Put a break point here
+last_subj_set_flag = False
+last_subj = None
+for ind in inspect_file_tab.index:
+    if inspect_file_tab['AlreadyInspected'][ind] == 1:
+        continue
+    
+
+    condition = inspect_file_tab['Condition'][ind]
+    subj_name = inspect_file_tab['SubjName'][ind]
+    filename = inspect_file_tab['FileName'][ind]
+    fullfile = os.path.join(anatomy_path, condition, subj_name, filename, filename+'.fif')
+    
+    if last_subj_set_flag:
+        if last_subj == subj_name:
+            try:
+                rec_meta_info = mne.io.read_info(fullfile)
+            except:
+                print("Issue reading: ", condition, subj_name, filename)
+            
+            continue
+    
+    print(condition, subj_name, filename)
+    
+    
+    visualize_coregistration(subj_name, fullfile) #Put a break point here
+    
+    if not last_subj_set_flag:
+        last_subj_set_flag = True
+    
+    last_subj = subj_name
+        
     

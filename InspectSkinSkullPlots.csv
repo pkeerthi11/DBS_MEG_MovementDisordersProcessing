@@ -1,0 +1,67 @@
+Condition,SubjName,ProblemFlag,MinorProblemFlag,OtherProblemFlag,FinalPrefloodValue,Use fsaverage,RerunSubjectProcessing,Notes
+pd,al0045a,0,0,0,,,,
+pd,al0001a,0,0,0,,,,
+pd,al00100a,0,0,0,30,0,1,Tried to achieve best tradeoff between underlighting and overlighting areas
+pd,al00104a,0,0,0,39,0,1,Minor dent in skull but doesn’t severly warp cortex
+pd,al00108a,0,0,0,39,0,1,Tried to achieve best tradeoff between underlighting and overlighting areas
+pd,al00109a,0,0,0,,,,
+pd,al00111a,0,0,0,,,,
+pd,al00112a,0,0,0,25,0,0,"Skull has dent but doesn’t affect red outline, keep"
+pd,al00113a,0,0,0,,,,
+pd,al00114a,0,0,0,30,0,1,"Skull has dent but doesn’t affect red outline, keep"
+pd,al00115a,0,0,0,50,1,1,Skull has dent that affects the brain surface
+pd,al00117a,0,0,0,44,0,1,Tried to achieve best tradeoff between underlighting and overlighting areas
+pd,al00118a,0,0,0,30,0,1,"Skull has dent but doesn’t affect red outline, keep"
+pd,al00119a,0,0,0,45,0,1,Minor deformation in shape/poor highlighting (missing)
+pd,al00121a,0,0,0,,,,
+pd,al00122a,0,0,0,,,,
+pd,al00123a,0,0,0,,,,
+pd,al00124a,0,0,0,,,,
+pd,al0013a,0,0,0,,,,
+pd,al0014a,0,0,0,,,,
+pd,al0019a,0,0,0,,,,
+pd,al0021a,0,0,0,,,,
+pd,al0021b,0,0,0,,,,
+pd,al0021c,0,0,0,,,,
+pd,al0027a,0,0,0,,,,
+pd,al0028a,0,0,0,,,,
+pd,al0031a,0,0,0,61,1,1,"First image is not outlined fully, significant portions of cortex missing"
+pd,al0033a,0,0,0,,,,
+pd,al0046a,0,0,0,,,,
+pd,al0048a,0,0,0,,,,
+pd,al0048b,0,0,0,,,,
+pd,al0057a,0,0,1,,1,1,Weird artifact
+pd,al0058a,0,0,0,,,,
+pd,al0060a,0,0,1,,,,"Doesn’t exist, but exists for b"
+pd,al0060b,0,0,0,,,,
+pd,al0061a,0,0,0,,,,
+pd,al0063a,0,0,0,,,,
+pd,al0063b,0,0,0,,,,
+pd,al0065a,0,0,0,65,1,1,Significant portions of cortex left out
+pd,al0066a,0,0,0,,,,
+pd,al0068a,0,0,0,,,,
+pd,al0069a,0,0,0,,,,
+pd,al0069b,0,0,0,,,,
+pd,al0070a,0,0,0,8,0,1,"Red outline extends beyond yellow boundary but shape matches well, keep"
+pd,al0071a,0,0,0,66,1,1,Minor deformation in shape/poor highlighting (missing)
+pd,al0071b,0,0,0,66,1,1,Minor deformation in shape/poor highlighting (missing)
+pd,al0074a,0,0,0,,,,
+pd,al0078a,0,0,0,,,,
+pd,al0079a,0,0,0,,,,
+pd,al0082a,0,0,0,,,,
+pd,al0082b,0,0,0,,,,
+pd,al0099a,0,0,0,60,1,1,Deformation in shape/poor highlighting (missing)
+dy,al00103a,0,0,1,,,,First images don’t have anything
+dy,al00107a,0,0,0,,,,
+dy,al0015a,0,0,0,,,,
+dy,al0035a,0,0,0,,,,
+dy,al0036a,0,0,0,65,0,1,"Red outline extends beyond yellow boundary but shape matches well, keep"
+dy,al0044a,0,0,1,,1,1,Weird artifact
+dy,al0059a,0,0,0,,,,
+et,al0004a,0,0,0,,,,
+et,al0005a,0,0,0,,,,
+et,al00105a,0,0,1,,1,1,Weird artifact
+et,al00106a,0,0,0,,,,
+et,al0016a,0,0,0,,,,
+et,al0052a,0,0,0,47.5,0,1,Pretty good now
+et,al0054a,0,0,0,47.5,0,1,Pretty good now

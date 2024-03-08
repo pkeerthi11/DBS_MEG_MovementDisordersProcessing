@@ -1,0 +1,484 @@
+Condition,SubjName,FileName,AlreadyInspected,ProblemFlag,MinorProblemFlag,RedoCoregistration,Notes
+pd,al0045a,01_tsss_1_JA_OFF1,1,,,,
+pd,al0045a,02_tsss_2_JA_9M10P_15_90_130,1,,,,
+pd,al0045a,03_tsss_3_JA_9M10P_30_90_130,1,,,,
+pd,al0045a,04_tsss_4_JA_8M11P_15_90_130,1,,,,
+pd,al0045a,05_tsss_5_JA_9M10P_15_90_20,1,,,,
+pd,al0045a,06_tsss_6_JA_9M10P_15_390_130,1,,,,
+pd,al0045a,07_tsss_7_JA_OFF2,1,,,,
+pd,al0045a,08_tsss_8_JA_1M2P_15_90_130,1,,,,
+pd,al0045a,09_tsss_9_JA_1M2P_9M10P_15_90_130_BILATERAL,1,,,,
+pd,al0001a,01_tsss_DBS_GA_OFF1,1,,,,
+pd,al0001a,02_tsss_DBS_GA_1M2P_25_060_180,1,,,,
+pd,al0001a,03_tsss_DBS_GA_0M3P_15_060_180,1,,,,
+pd,al0001a,04_tsss_DBS_GA_1M2P_15_060_020,1,,,,
+pd,al0001a,05_tsss_DBS_GA_1M2P_15_390_180,1,,,,
+pd,al00100a,01_tsss_1_OFF,1,,,,
+pd,al00100a,02_tsss_2_OFF_RAF,1,,,,
+pd,al00100a,03_tsss_3_ON_therapeutic,1,,,,
+pd,al00100a,04_tsss_4_ON_therapeutic_RAF,1,,,,
+pd,al00100a,05_tsss_5_L15V,1,,,,
+pd,al00100a,06_tsss_6_L15V_RAF,1,,,,
+pd,al00100a,07_tsss_7_L30V,1,,,,
+pd,al00100a,08_tsss_8_B15V,1,,,,
+pd,al00100a,09_tsss_9_R15V,1,,,,
+pd,al00104a,02_tsss_2_OFF-RAF,1,1,,,Nose and points appears to be in wrong location
+pd,al00104a,03_tsss_3_L15V,1,1,,,Nose and points appears to be in wrong location
+pd,al00104a,04_tsss_4_L15V-RAF,1,1,,,Nose and points appears to be in wrong location
+pd,al00104a,05_tsss_5_L30V,1,1,,,Nose and points appears to be in wrong location
+pd,al00104a,06_tsss_6_B15V,1,1,,,Nose and points appears to be in wrong location
+pd,al00104a,07_tsss_7_R15V,1,1,,,Nose and points appears to be in wrong location
+pd,al00104a,08_tsss_8_0-3+,1,1,,,Input output error
+pd,al00104a,09_tsss_9_20Hz,1,1,,,Input output error
+pd,al00104a,10_tsss_10_OFF-2,1,,1,,Nose and points appears to be in wrong location
+pd,al00108a,01_tsss_7_OFF_REST,1,,1,,Nose point slightly offset
+pd,al00108a,02_tsss_8_OFF_RAF,1,,1,,Nose point slightly offset
+pd,al00108a,04_tsss_10_R15V_RAF,1,,,,
+pd,al00109a,01_tsss_7_OFF_REST,1,1,,,Nose and points appears to be in wrong location
+pd,al00109a,02_tsss_8_OFF_RAF,1,1,,,Nose and points appears to be in wrong location
+pd,al00109a,03_tsss_9_L15V_REST,1,1,,,Nose and points appears to be in wrong location
+pd,al00109a,04_tsss_10_L15V_RAF,1,1,,,Nose and points appears to be in wrong location
+pd,al00109a,05_tsss_11_R15V_REST,1,1,,,Nose and points appears to be in wrong location
+pd,al00111a,01_1_tsss,1,,1,,One of the auricular points is off
+pd,al00111a,02_2_tsss,1,,,,
+pd,al00111a,03_3_tsss,1,,,,
+pd,al00111a,04_4_tsss,1,,,,
+pd,al00111a,05_5_tsss,1,,,,
+pd,al00112a,01_1_tsss,1,,,,
+pd,al00112a,02_2_tsss,1,,,,
+pd,al00112a,03_3_tsss,1,,,,
+pd,al00112a,04_4_tsss,1,,,,
+pd,al00112a,05_5_tsss,1,,,,
+pd,al00112a,06_6_tsss,1,,,,
+pd,al00112a,07_7_tsss,1,,,,
+pd,al00112a,08_8_tsss,1,,,,
+pd,al00112a,09_9_tsss,1,,,,
+pd,al00113a,01_tsss_1,1,,,,
+pd,al00113a,02_tsss_2,1,,,,
+pd,al00113a,03_tsss_3,1,,,,
+pd,al00113a,04_tsss_4,1,,,,
+pd,al00113a,05_tsss_5,1,,,,
+pd,al00113a,06_tsss_6,1,,,,
+pd,al00113a,07_tsss_7,1,,,,
+pd,al00113a,08_tsss_8,1,,,,
+pd,al00114a,01_tsss_1,1,,1,,"Invalid tag with only 0/16 bytes at position 192168785 in file /storage/prerana/subjects/pd/al00114a/01_tsss_1/01_tsss_1.fif
+  rec_meta_info = mne.io.read_info(data_path)"
+pd,al00114a,02_2_tsss,1,,,,
+pd,al00114a,03_3_tsss,1,,,,
+pd,al00114a,04_tsss_4,1,,,,
+pd,al00114a,05_tsss_5,1,,,,
+pd,al00114a,06_tsss_6,1,,,,
+pd,al00114a,07_tsss_7,1,,,,
+pd,al00114a,08_tsss_8,1,,,,
+pd,al00115a,01_tsss_1,1,,1,,Deformed skull
+pd,al00115a,02_tsss_2,1,,1,,Deformed skull
+pd,al00115a,03_tsss_3,1,,1,,Deformed skull
+pd,al00115a,04_tsss_4,1,,1,,Deformed skull
+pd,al00115a,05_tsss_5,1,,1,,Deformed skull
+pd,al00115a,06_tsss_6,1,,1,,Deformed skull
+pd,al00115a,07_tsss_7,1,,1,,Deformed skull
+pd,al00117a,01_tsss_1,1,,1,,Offset nose point
+pd,al00117a,02_tsss_2,1,,1,,Offset nose point
+pd,al00117a,03_tsss_3,1,,1,,Offset nose point
+pd,al00117a,04_tsss_4,1,,1,,Offset nose point
+pd,al00117a,05_tsss_5,1,,1,,Offset nose point
+pd,al00117a,06_tsss_6,1,,1,,Offset nose point
+pd,al00117a,07_tsss_7,1,,1,,Offset nose point
+pd,al00117a,08_tsss_8,1,,1,,Offset nose point
+pd,al00118a,02_tsss_2,1,,1,,Offset behind ear point
+pd,al00118a,03_tsss_3,1,,1,,Offset behind ear point
+pd,al00118a,04_tsss_4,1,,1,,Offset behind ear point
+pd,al00118a,05_tsss_5,1,,1,,Offset behind ear point
+pd,al00119a,01_tsss_1,1,,1,,Offset behind ear point
+pd,al00121a,01_tsss_1,1,,1,,"Points only on one side, ear and eye points are similar"
+pd,al00121a,02_tsss_2,1,,1,,"Points only on one side, ear and eye points are similar"
+pd,al00121a,03_tsss_3,1,,1,,"Points only on one side, ear and eye points are similar"
+pd,al00121a,04_tsss_4,1,,1,,"Points only on one side, ear and eye points are similar"
+pd,al00121a,05_tsss_5,1,,1,,"Points only on one side, ear and eye points are similar"
+pd,al00121a,06_tsss_6,1,,1,,"Points only on one side, ear and eye points are similar"
+pd,al00121a,07_tsss_7,1,,1,,"Points only on one side, ear and eye points are similar"
+pd,al00121a,08_tsss_8,1,,1,,"Points only on one side, ear and eye points are similar"
+pd,al00122a,01_tsss_1,1,,,,
+pd,al00122a,02_tsss_2,1,,,,
+pd,al00122a,03_tsss_3,1,,,,
+pd,al00122a,04_tsss_4,1,,,,
+pd,al00122a,05_tsss_5,1,,,,
+pd,al00122a,06_tsss_6,1,,,,
+pd,al00122a,07_tsss_7,1,,,,
+pd,al00123a,01_tsss_1,1,1,,,Everything misaligned
+pd,al00123a,02_tsss_2,1,1,,,Everything misaligned
+pd,al00123a,03_tsss_3,1,1,,,Everything misaligned
+pd,al00123a,04_tsss_4,1,1,,,Everything misaligned
+pd,al00123a,05_tsss_5,1,1,,,Everything misaligned
+pd,al00123a,06_6_tsss,1,1,,,Everything misaligned
+pd,al00123a,07_tsss_7,1,1,,,Everything misaligned
+pd,al00124a,01_tsss_1,1,,,,
+pd,al00124a,02_tsss_2,1,,,,
+pd,al00124a,03_tsss_3,1,,,,
+pd,al00124a,04_tsss_4,1,,,,
+pd,al00124a,05_5_tsss,1,,,,
+pd,al00124a,06_6_tsss,1,,,,
+pd,al00124a,07_7_tsss,1,,,,
+pd,al0013a,01_DBSJBOFF_tsss_mc,1,,,,
+pd,al0013a,02_DBSJB_15_9M10P_130_090_tsss_mc,1,,,,
+pd,al0013a,03_DBSJB_30_9M10P_130_090_tsss_mc,1,,,,
+pd,al0013a,04_DBSJB_15_9M10P_020_090_tsss_mc,1,,,,
+pd,al0013a,05_DBSJBOFF_2_tsss_mc,1,,,,
+pd,al0013a,06_DBSJB_15_9M10P_130_090_bi_tsss_mc,1,,,,
+pd,al0013a,07_DBSJB_15_9M10P_130_390_tsss_mc,1,,,,
+pd,al0013a,08_DBSJB_15_8M11P_130_090_tsss_mc,1,,,,
+pd,al0014a,01_DBSJMOFF_tsss_mc,1,,,,
+pd,al0014a,02_DBSJM_15_9M10P_130_90_tsss_mc,1,,,,
+pd,al0014a,03_DBSJM_30_9M10P_130_90_tsss_mc,1,,,,
+pd,al0014a,04_DBSJM_15_8M11P_130_90_tsss_mc,1,,,,
+pd,al0014a,05_DBSJM_15_9M10P_020_90_tsss_mc,1,,,,
+pd,al0014a,06_DBSJM_15_9M10P_130_390_tsss_mc,1,,,,
+pd,al0014a,07_DBS_OFF2_tsss_mc,1,,,,
+pd,al0014a,08_DBSJM_15_9M10P_130_90_bi_tsss_mc,1,,,,
+pd,al0019a,01_tsss_DBSNCOFF1,1,,,,
+pd,al0019a,02_tsss_DBSNC_1M2P_15_090_130,1,,,,
+pd,al0019a,03_tsss_DBSNC_1M2P_30_090_130,1,,,,
+pd,al0019a,04_tsss_DBSNC_0M3P_15_090_130,1,,,,
+pd,al0019a,05_tsss_DBSNC_1M2P_15_090_020,1,,,,
+pd,al0019a,06_tsss_DBSNC_1M2P_15_390_130,1,,,,
+pd,al0019a,07_tsss_DBSNC_OFF2,1,,,,
+pd,al0019a,08_tsss_DBSNC_BILATERAL,1,,,,
+pd,al0019a,09_tsss_DBS_OFF3_BILATERAL_ON,1,,,,
+pd,al0021a,01_tsss_DBSRGOFF1,1,,1,,Forehead points far down
+pd,al0021a,02_tsss_DBSRG_1M2P_15_090_130,1,,1,,Forehead points far down
+pd,al0021a,03_tsss_DBSRG_1M2P_30_090_130,1,,1,,Forehead points far down
+pd,al0021a,04_tsss_DBSRG_0M3P_15_090_130,1,,1,,Forehead points far down
+pd,al0021a,05_tsss_DBSRG_1M2P_15_090_020,1,,1,,Forehead points far down
+pd,al0021a,06_tsss_DBSRG_1M2P_15_390_130,1,,1,,Forehead points far down
+pd,al0021a,07_tsss_DBSRG_OFF2,1,,1,,Forehead points far down
+pd,al0021a,08_tsss_DBSRG_BILATERAL,1,,1,,Forehead points far down
+pd,al0021a,09_tsss_DBSRG_CYCLE_ON_OFF_MONO,1,,1,,Forehead points far down
+pd,al0021a,10_tsss_DBSRG_VIM_STIM,1,,1,,Forehead points far down
+pd,al0021b,01_tsss_DBSRGOFF1,1,,1,,Forehead points far down
+pd,al0021b,02_tsss_DBSRG_1M2P_15_090_130,1,,1,,Forehead points far down
+pd,al0021b,03_tsss_DBSRG_1M2P_30_090_130,1,,1,,Forehead points far down
+pd,al0021b,04_tsss_DBSRG_0M3P_15_090_130,1,,1,,Forehead points far down
+pd,al0021b,05_tsss_DBSRG_1M2P_15_390_130,1,,1,,Forehead points far down
+pd,al0021b,06_tsss_DBSRG_OFF2,1,,1,,Forehead points far down
+pd,al0021b,07_tsss_DBSRG_9M10P_15_090_130,1,,1,,Forehead points far down
+pd,al0021b,08_tsss_DBS_1M2P_15_090_130_BILATERAL,1,,1,,Forehead points far down
+pd,al0021b,09_tsss_DBSRG_1M2P_30_090_130_VIM,1,,1,,Forehead points far down
+pd,al0021b,10_tsss_DBSRG_TBP_15_090_250_BILATERAL,1,,1,,Forehead points far down
+pd,al0021c,01_tsss_1,1,1,,,Very few small fiducial points and Forehead points far down
+pd,al0021c,02_tsss_2,1,1,,,Very few small fiducial points and Forehead points far down
+pd,al0021c,03_tsss_3,1,1,,,Very few small fiducial points and Forehead points far down
+pd,al0021c,04_tsss_4,1,1,,,Very few small fiducial points and Forehead points far down
+pd,al0021c,05_tsss_5,1,1,,,Very few small fiducial points and Forehead points far down
+pd,al0021c,06_tsss_6,1,1,,,Very few small fiducial points and Forehead points far down
+pd,al0021c,07_tsss_7,1,1,,,Very few small fiducial points and Forehead points far down
+pd,al0027a,01_tsss_DBSDB_OFF1,1,,,,
+pd,al0027a,02_tsss_DBSDM_OFF1A,1,,,,
+pd,al0027a,03_tsss_DBDDM_5M6P_15_090_130,1,,,,
+pd,al0027a,04_tsss_DBSDM_5M6P_30_090_130,1,,,,
+pd,al0027a,05_tsss_DBSDM_4M7P_15_090_130,1,,,,
+pd,al0027a,06_tsss_DBSDM_5M6P_15_090_020,1,,,,
+pd,al0027a,07_tsss_DBSDM_5M6P_15_390_130,1,,,,
+pd,al0027a,08_tsss_DBSDM_5M6P_30_090_130_BI,1,,,,
+pd,al0028a,01_tsss_DBSBB_OFF1,1,1,,,Nose point too low and in head
+pd,al0028a,02_tsss_DBSBB_9M10P_15_090_130,1,1,,,Nose point too low and in head
+pd,al0028a,03_tsss_DBSBB_9M10P_30_090_130,1,1,,,Nose point too low and in head
+pd,al0028a,04_tsss_DBSBB_8M11P_15_090_130,1,1,,,Nose point too low and in head
+pd,al0028a,05_tsss_DBSBB_9M10P_15_090_020,1,1,,,Nose point too low and in head
+pd,al0028a,06_tsss_DBSBB_9M10P_15_390_130,1,1,,,Nose point too low and in head
+pd,al0028a,07_tsss_DBSBB_OFF2,1,1,,,Nose point too low and in head
+pd,al0028a,08_tsss_DBSBB_1M2P_15_090_130,1,1,,,Nose point too low and in head
+pd,al0028a,09_tsss_DBSBB_9M10P_15_090_130_BI,1,1,,,Nose point too low and in head
+pd,al0031a,01_tsss_DBSPB_OFF1,1,,1,,One ear points high up and far back
+pd,al0031a,02_tsss_DBSPB_9M10P_15_090_130,1,,1,,One ear points high up and far back
+pd,al0031a,03_tsss_DBSPB_9M10P_30_090_130,1,,1,,One ear points high up and far back
+pd,al0031a,04_tsss_DBSPB_8M11P_15_090_130,1,,1,,One ear points high up and far back
+pd,al0031a,05_tsss_DBSPB_9M10P_15_090_020,1,,1,,One ear points high up and far back
+pd,al0031a,06_tsss_DBSPB_9M10P_15_390_130,1,,1,,One ear points high up and far back
+pd,al0031a,07_tsss_DBSPB_OFF2,1,,1,,One ear points high up and far back
+pd,al0031a,08_tsss_DBSPB_1M2P_15_090_130,1,,1,,One ear points high up and far back
+pd,al0031a,09_tsss_DBSPB_1M2P9M10P_15_090_130_BILATERAL,1,,1,,One ear points high up and far back
+pd,al0033a,01_tsss_DBSALOFF1,1,,1,,One ear points high up and far back
+pd,al0033a,02_tsss_DBSAL1MCP15090130,1,,1,,One ear points high up and far back
+pd,al0033a,03_tsss_DBSAL2M5P15090130,1,,1,,One ear points high up and far back
+pd,al0033a,04_tsss_DBSAL2M5P30090130,1,,1,,One ear points high up and far back
+pd,al0033a,05_tsss_DBSAL3M6P15090130,1,,1,,One ear points high up and far back
+pd,al0033a,06_tsss_DBSAL4M7P15090130,1,,1,,One ear points high up and far back
+pd,al0033a,07_tsss_DBSAL1M8P15090130,1,,1,,One ear points high up and far back
+pd,al0033a,08_tsss_DBSALOFF2,1,,1,,One ear points high up and far back
+pd,al0033a,09_tsss_DBSAL10M13P15090130,1,,1,,One ear points high up and far back
+pd,al0033a,10_tsss_DBSAL1891615090130BILATERAL,1,,1,,One ear points high up and far back
+pd,al0033a,11_tsss_DBSAL234M567P15090130,1,,1,,One ear points high up and far back
+pd,al0033a,12_tsss_DBSAL1234MCP10090130FRAC,1,,1,,One ear points high up and far back
+pd,al0046a,01_tsss_LR_OFF1,1,,,,
+pd,al0046a,02_tsss_LR_3M4P_15_90_130_R,1,,,,
+pd,al0046a,03_tsss_LR_3M4P_30_90_130_R,1,,,,
+pd,al0046a,04_tsss_LR_2M5P_15_90_130_R,1,,,,
+pd,al0046a,05_tsss_LR_3M4P_15_90_20_R,1,,,,
+pd,al0046a,06_tsss_LR_3M4P_15_390_130_R,1,,,,
+pd,al0046a,07_tsss_LR_OFF2,1,,,,
+pd,al0046a,08_tsss_LR_11M12P_15_90_130_L,1,,,,
+pd,al0046a,09_tsss_LR_3M4P_11M12P_15_90_130_BILATERAL,1,,,,
+pd,al0046a,10_tsss_LR_1M6P_15_90_130_R,1,,,,
+pd,al0046a,11_tsss_LR_2M3P_15_90_130_R,1,,,,
+pd,al0046a,12_tsss_LR_2M3Mea50%4P_15_90_130_R,1,,,,
+pd,al0048a,01_tsss_1_OFF1,1,,,,
+pd,al0048a,02_tsss_2_OFF1_ARMFLEXR,1,,,,
+pd,al0048a,03_tsss_3_9M10P_15_90_130,1,,,,
+pd,al0048a,04_tsss_4_9M10P_15_90_130_ARMFLEXR,1,,,,
+pd,al0048a,05_tsss_5_9M10P_30_90_130,1,,,,
+pd,al0048a,06_tsss_6_8M11P_15_90_130,1,,,,
+pd,al0048a,07_tsss_7_9M10P_15_90_30,1,,,,
+pd,al0048a,08_tsss_8_9M10P_15_390_130,1,,,,
+pd,al0048a,09_tsss_9_OFF2,1,,,,
+pd,al0048a,10_tsss_10_1M2P_15_90_130,1,,,,
+pd,al0048a,11_tsss_11_1M2P_15_90_130_BILATERAL,1,,,,
+pd,al0048b,01_tsss_1_MB_OFF1_EC,1,,,,
+pd,al0048b,02_tsss_2_MB_OFF1_EO,1,,,,
+pd,al0048b,06_tsss_6_MB_8M11P_15_90_130_L,1,,,,
+pd,al0048b,07_tsss_7_MB_9M10P_15_90_20_L,1,,,,
+pd,al0048b,09_tsss_9_MB_OFF2_EC,1,,,,
+pd,al0048b,10_tsss_10_MB_1M2P_15_90_130_R,1,,,,
+pd,al0048b,11_tsss_11_MB_1M2P_15_90_130_BIL,1,,,,
+pd,al0048b,14_tsss_14_MB_OFF4_EC,1,,,,
+pd,al0057a,01_tsss_1_OFF1,1,,,,
+pd,al0057a,02_tsss_2_OFF1_ARMFLEXR,1,,,,
+pd,al0057a,03_tsss_3_1M2P_15_90_130,1,,,,
+pd,al0057a,04_tsss_4_1M2P_15_90_130_ARMFLEXR,1,,,,
+pd,al0057a,05_tsss_5_1M2P_30_90_130,1,,,,
+pd,al0057a,06_tsss_6_0M3P_15_90_130,1,,,,
+pd,al0057a,07_tsss_7_1M2P_15_90_20,1,,,,
+pd,al0057a,08_tsss_8_1M2P_15_390_130,1,,,,
+pd,al0057a,09_tsss_9_OFF2,1,,,,
+pd,al0057a,10_tsss_10_9M10P_15_90_130,1,,,,
+pd,al0057a,11_tsss_11_1M2P_15_90_130_BILATERAL,1,,,,
+pd,al0058a,01_tsss_1_OFF1,1,,,,
+pd,al0058a,02_tsss_2_OFF1_RARMFLEX,1,,,,
+pd,al0058a,03_tsss_3_2M3P_15_90_130,1,,,,
+pd,al0058a,04_tsss_4_2M3P_15_90_130_RARMFLEX,1,,,,
+pd,al0058a,05_tsss_5_1M4P_15_90_130,1,,,,
+pd,al0058a,06_tsss_6_2M3P_15_90_20,1,,,,
+pd,al0058a,07_tsss_7_2M3P_15_390_130,1,,,,
+pd,al0058a,08_tsss_8_OFF2,1,,,,
+pd,al0058a,09_tsss_9_10M11P_15_90_130,1,,,,
+pd,al0058a,10_tsss_10_2M3P_15_90_130_BI,1,,,,
+pd,al0060b,01_tsss_1_CG_OFF1,1,,1,,Points slanted
+pd,al0060b,02_tsss_2_CG_OFF1_RARMFLEX,1,,1,,Points slanted
+pd,al0060b,03_tsss_3_CG_9M10P_15_90_130,1,,1,,Points slanted
+pd,al0060b,04_tsss_4_CG_9M10P_15_90_130_RARMFLEX,1,,1,,Points slanted
+pd,al0060b,05_tsss_5_CG_9M10P_30_90_130,1,,1,,Points slanted
+pd,al0060b,06_tsss_6_CG_8M11P_15_90_130,1,,1,,Points slanted
+pd,al0060b,07_tsss_7_CG_9M10P_15_90_20,1,,1,,Points slanted
+pd,al0060b,08_tsss_8_CG_9M10P_15_390_130,1,,1,,Points slanted
+pd,al0060b,09_tsss_9_CG_OFF2,1,,1,,Points slanted
+pd,al0060b,10_tsss_10_CG_1M2P_15_90_130,1,,1,,Points slanted
+pd,al0060b,11_tsss_11_CG_1M2P_15_90_130_BILATERAL,1,,1,,Points slanted
+pd,al0061a,01_tsss_1_OFF1,1,,,,
+pd,al0061a,02_tsss_2_OFF1_ARMFLEXR,1,,,,
+pd,al0061a,03_tsss_3_1M2P_15_90_130,1,,,,
+pd,al0061a,04_tsss_4_9M10P_15_90_130,1,,,,
+pd,al0061a,05_tsss_5_9M10P_15_90_130_ARMFLEXR,1,,,,
+pd,al0061a,06_tsss_6_9M10P_30_90_130,1,,,,
+pd,al0061a,07_tsss_7_8M11P_15_90_130,1,,,,
+pd,al0061a,08_tsss_8_9M10P_15_90_20,1,,,,
+pd,al0061a,09_tsss_9_9M10P_15_390_130,1,,,,
+pd,al0061a,10_tsss_10_OFF2,1,,,,
+pd,al0061a,11_tsss_11_1M2P_15_90_130_BILATERAL,1,,,,
+pd,al0063a,01_tsss_1_REST1,1,,1,,Nose point inside head
+pd,al0063a,02_tsss_2_REST2_RARMFLEX,1,,1,,Nose point inside head
+pd,al0063a,03_tsss_3_REST3,1,,1,,Nose point inside head
+pd,al0063b,01_tsss_1_BS_CP9M-CP1M_50_60_80,1,,1,,Nose point inside head
+pd,al0063b,01_tsss_1_REST1,1,,1,,Nose point inside head
+pd,al0063b,02_tsss_2_BS_OFF1_EC,1,,1,,Nose point inside head
+pd,al0063b,02_tsss_2_REST2_RARMFLEX,1,,1,,Nose point inside head
+pd,al0063b,03_tsss_3_BS_OFF1_EO,1,,1,,Nose point inside head
+pd,al0063b,03_tsss_3_REST3,1,,1,,Nose point inside head
+pd,al0063b,04_tsss_4_BS_9M10P_15_90_130_L,1,,1,,Nose point inside head
+pd,al0063b,05_tsss_5_BS_9M10P_30_90_130_EC_L,1,,1,,Nose point inside head
+pd,al0063b,06_tsss_6_BS_9M10P_30_90_130_EO_L,1,,1,,Nose point inside head
+pd,al0063b,07_tsss_7_BS_9M10P_15_90_20_L,1,,1,,Nose point inside head
+pd,al0063b,08_tsss_8_BS_9M10P_15_390_130_L,1,,1,,Nose point inside head
+pd,al0063b,09_tsss_9_BS_OFF2_EC,1,,1,,Nose point inside head
+pd,al0063b,10_tsss_10_BS_1M2P_15_90_130_R,1,,1,,Nose point inside head
+pd,al0063b,11_tsss_11_BS_1M2P_15_90_130_BIL,1,,1,,Nose point inside head
+pd,al0063b,12_tsss_12_BS_OFF3_EC,1,,1,,Nose point inside head
+pd,al0063b,13_tsss_13_BS_OFF4_EC,1,,1,,Nose point inside head
+pd,al0065a,01_tsss_1_OFF1,1,,1,,Points slanted
+pd,al0065a,02_tsss_2_OFF1_RARMFLEX,1,,1,,Points slanted
+pd,al0065a,03_tsss_3_1M2P_15_90_130,1,,1,,Points slanted
+pd,al0065a,04_tsss_4_1M2P_15_90_130_RARMFLEX,1,,1,,Points slanted
+pd,al0065a,05_tsss_5_1M2P_30_90_130,1,,1,,Points slanted
+pd,al0065a,06_tsss_6_0M3P_15_90_130,1,,1,,Points slanted
+pd,al0065a,07_tsss_7_1M2P_15_90_20,1,,1,,Points slanted
+pd,al0065a,08_tsss_8_1M2P_15_390_130,1,,1,,Points slanted
+pd,al0065a,09_tsss_9_OFF2,1,,1,,Points slanted
+pd,al0066a,01_tsss_1_EC_REST1,1,,,,
+pd,al0066a,02_tsss_2_EC_REST2_RARMFLEX,1,,,,
+pd,al0066a,03_tsss_3_EC_REST3,1,,,,
+pd,al0068a,01_tsss_1_IM_8P9M-0M1P_3-2.3_60_130_BI,1,,,,
+pd,al0068a,02_tsss_2_IM_OFF1,1,,,,
+pd,al0068a,03_tsss_3_IM_OFF1_ARMFLEXR,1,,,,
+pd,al0068a,04_tsss_4_IM_1M2P_15_90_130,1,,,,
+pd,al0068a,05_tsss_5_IM_1M2P_15_90_130_ARMFLEXR,1,,,,
+pd,al0068a,06_tsss_6_IM_1M2P_30_90_130,1,,,,
+pd,al0068a,07_tsss_7_IM_0M3P_15_90_130,1,,,,
+pd,al0068a,08_tsss_8_IM_1M2P_15_90_20,1,,,,
+pd,al0068a,09_tsss_9_IM_1M2P_15_390_130,1,,,,
+pd,al0068a,10_tsss_10_IM_OFF2,1,,,,
+pd,al0068a,11_tsss_11_IM_9M10P_15_90_130,1,,,,
+pd,al0068a,12_tsss_12_IM_1M2P_15_90_130_BI,1,,,,
+pd,al0069a,01_tsss_1_MPL_OFF1,1,,,,
+pd,al0069a,02_tsss_2_MPL_OFF1_RARMFLEX,1,,,,
+pd,al0069a,03_tsss_3_MPL_1M2P_15_90_130,1,,,,
+pd,al0069a,04_tsss_4_MPL_1M2P_15_90_130_RARMFLEX,1,,,,
+pd,al0069a,05_tsss_5_MPL_1M2P_30_90_130,1,,,,
+pd,al0069a,06_tsss_6_MPL_0M3P_15_90_130,1,,,,
+pd,al0069a,07_tsss_7_MPL_1M2P_15_90_20,1,,,,
+pd,al0069a,08_tsss_8_MPL_1M2P_15_390_130,1,,,,
+pd,al0069a,09_tsss_9_MPL_OFF2,1,,,,
+pd,al0069a,10_tsss_10_MPL_9M10P_15_90_130,1,,,,
+pd,al0069a,11_tsss_11_MPL_1M2P_15_90_130_BI,1,,,,
+pd,al0069b,01_tsss_1_MPL_OFF1,1,,,,
+pd,al0069b,07_tsss_7_MPL_OFF2,1,,,,
+pd,al0070a,01_tsss_1_RK_OFF1,1,,,,
+pd,al0070a,02_tsss_2_RK_OFF1_ARMFLEXR,1,,,,
+pd,al0070a,03_tsss_3_RK_1M2P_15_90_130,1,,,,
+pd,al0070a,04_tsss_4_RK_1M2P_15_90_130_ARMFLEXR,1,,,,
+pd,al0070a,05_tsss_5_RK_1M2P_30_90_130,1,,,,
+pd,al0070a,06_tsss_6_RK_0M3P_15_90_130,1,,,,
+pd,al0070a,07_tsss_7_RK_1M2P_15_90_20,1,,,,
+pd,al0070a,08_tsss_8_RK_1M2P_15_390_130,1,,,,
+pd,al0070a,09_tsss_9_RK_OFF2,1,,,,
+pd,al0070a,10_tsss_10_RK_9M10P_15_90_130,1,,,,
+pd,al0070a,11_tsss_11_RK_1M2P_15_90_130_BI,1,,,,
+pd,al0071a,01_tsss_1_REST1,1,,,,
+pd,al0071a,02_tsss_2_REST2,1,,,,
+pd,al0071b,01_1_tsss,1,,,,
+pd,al0071b,02_2_tsss,1,,,,
+pd,al0071b,03_3_tsss,1,,,,
+pd,al0071b,04_4_tsss,1,,,,
+pd,al0071b,05_5_tsss,1,,,,
+pd,al0071b,06_6_tsss,1,,,,
+pd,al0071b,07_7_tsss,1,,,,
+pd,al0071b,08_8_tsss,1,,,,
+pd,al0074a,01_tsss_1_OFF1,1,1,,,Nose point inside head
+pd,al0074a,02_tsss_2_DJ_OFF1_RARMFLEX,1,1,,,Nose point inside head
+pd,al0074a,03_tsss_3_DJ_9M10P_15_90_130,1,1,,,Nose point inside head
+pd,al0074a,04_tsss_4_DJ_9M10P_15_90_130_RARMFLEX,1,1,,,Nose point inside head
+pd,al0074a,05_tsss_5_DJ_9M10P_30_90_130,1,1,,,Nose point inside head
+pd,al0074a,06_tsss_6_DJ_8M11P_15_90_130,1,1,,,Nose point inside head
+pd,al0074a,07_tsss_7_DJ_9M10P_15_90_20,1,1,,,Nose point inside head
+pd,al0074a,09_tsss_9_DJ_OFF2,1,1,,,Nose point inside head
+pd,al0074a,10_tsss_10_DJ_1M2P_15_90_130,1,1,,,Nose point inside head
+pd,al0074a,11_tsss_11_DJ_1M2P_15_90_130_BILAT,1,1,,,Nose point inside head
+pd,al0078a,02_tsss_2_LY_OFF1,1,,,,
+pd,al0078a,06_tsss_6_LY_OFF1,1,,,,
+pd,al0079a,01_tsss_1_GM_CP1M-6M7P_3.2-3.5_60_185,1,1,,,Nose point inside head
+pd,al0082a,01_tsss_1_DD_5M6P-CP1M_52-36_60_80_BILAT,1,,,,
+pd,al0082a,02_tsss_2_DD_OFF1_EC,1,,,,
+pd,al0082a,03_tsss_3_DD_OFF1_EO,1,,,,
+pd,al0082a,04_tsss_4_DD_5M6P_15_90_130_L,1,,,,
+pd,al0082a,05_tsss_5_DD_5M6P_30_90_130_EC_L,1,,,,
+pd,al0082a,06_tsss_6_DD_5M6P_30_90_130_EO_L,1,,,,
+pd,al0082a,07_tsss_7_DD_5M6P_15_90_20_L,1,,,,
+pd,al0082a,08_tsss_8_DD_OFF2,1,,,,
+pd,al0082a,09_tsss_9_DD_1M2P_15_90_130_R,1,,,,
+pd,al0082a,10_tsss_10_DD_1M2P_15_90_130_BILAT,1,,,,
+pd,al0082a,11_tsss_11_DD_OFF3,1,,,,
+pd,al0082b,01_tsss_1,1,,,,STUNNING alignment
+pd,al0082b,02_tsss_2,1,,,,
+pd,al0082b,03_tsss_3,1,,,,
+pd,al0082b,04_tsss_4,1,,,,
+pd,al0082b,05_tsss_5,1,,,,
+pd,al0082b,06_tsss_6,1,,,,
+pd,al0082b,07_tsss_7,1,,,,
+pd,al0099a,01_tsss_7_OFF,1,,1,,Slightly slanted
+pd,al0099a,02_tsss_8_OFF_RAF,1,,1,,Slightly slanted
+pd,al0099a,03_tsss_9_L15V,1,,1,,Slightly slanted
+pd,al0099a,04_tsss_10_L15V_RAF,1,,1,,Slightly slanted
+pd,al0099a,05_tsss_11_L30V,1,,1,,Slightly slanted
+pd,al0099a,06_tsss_12_B15V,1,,1,,Slightly slanted
+pd,al0099a,07_tsss_13_R15V,1,,1,,Slightly slanted
+dy,al00103a,01_tsss_1_OFF1,1,,,,
+dy,al00103a,02_2_tsss_L15V,1,,,,
+dy,al00103a,03_tsss_3_L30V,1,,,,
+dy,al00103a,04_tsss_4_B15V,1,,,,
+dy,al00107a,01_tsss_1_OFF1,1,,,,
+dy,al00107a,02_tsss_2_L15V,1,,,,
+dy,al00107a,03_tsss_3_L30V,1,,,,
+dy,al00107a,04_tsss_4_B15V,1,,,,
+dy,al00107a,05_tsss_5_R15V,1,,,,
+dy,al00107a,06_tsss_6_OFF2,1,,,,
+dy,al00107a,07_tsss_7_0-3+,1,,,,
+dy,al00107a,08_tsss_8_20Hz,1,,,,
+dy,al0015a,01_DBSBD_OFF1_tsss_mc,1,,,,
+dy,al0015a,02_DBSBD_15_1M2P_130_90_tsss_mc,1,,,,
+dy,al0015a,03_DBSBD_30_1M2P_130_90_tsss_mc,1,,,,
+dy,al0015a,04_DBSBD_15_0M3P_130_090_tsss_mc,1,,,,
+dy,al0015a,05_DBSBD_15_1M2P_020_090_tsss_mc,1,,,,
+dy,al0015a,06_DBSBD_15_1M2P_130_390_tsss_mc,1,,,,
+dy,al0015a,07_DBSBD_OFF2_tsss_mc,1,,,,
+dy,al0015a,08_DBSBD_15_1M2P_130_090_bi_tsss_mc,1,,,,
+dy,al0035a,01_tsss_DBSKS_OFF1,1,,,,
+dy,al0035a,02_tsss_DBSK_OFF_R_BALL,1,,,,
+dy,al0035a,03_tsss_DBSKS_9M10P_15_090_130_R_BALL,1,,,,
+dy,al0035a,04_tsss_DBSKS_9M10P_15_090_130_L,1,,,,
+dy,al0035a,05_tsss_DBSKS_9M10P_30_090_130_L,1,,,,
+dy,al0035a,06_tsss_DBSKS_8M11P_15_090_130_L,1,,,,
+dy,al0035a,07_tsss_DBSKS_9M10P_15_090_020_L,1,,,,
+dy,al0035a,08_tsss_DBSKS_9M10P_15_390_130_L,1,,,,
+dy,al0035a,09_tsss_DBSKS_OFF2,1,,,,
+dy,al0035a,10_tsss_DBSKS_9M10P_15_090_130_L2,1,,,,
+dy,al0036a,01_tsss_DBSCT_OFF1,1,,,,
+dy,al0036a,02_tsss_DBSCT_OFF_R_BALL,1,,,,
+dy,al0036a,03_tsss_DBSCT_1M2P_15_090_130_R,1,,,,
+dy,al0036a,04_tsss_DBSCT_1M2P_15_090_130_R_R_BALL,1,,,,
+dy,al0036a,05_tsss_DBSCT_1M2P_30_090_130_R,1,,,,
+dy,al0036a,06_tsss_DBSCT_0M3P_15_090_130_R,1,,,,
+dy,al0036a,07_tsss_DBSCT_1M2P_15_090_020_R,1,,,,
+dy,al0036a,08_tsss_DBSCT_1M2P_15_390_130_R,1,,,,
+dy,al0036a,09_tsss_DBSCT_OFF2,1,,,,
+dy,al0036a,10_tsss_DBSCT_9M10P_15_090_130_L,1,,,,
+dy,al0036a,11_tsss_DBSCT_1M2P_9M10P_15_090_130_BIL,1,,,,
+dy,al0044a,01_tsss_1_SS_OFF1,1,,1,,Slightly slanted
+dy,al0044a,02_tsss_2_SS_1M2P_15_90_130_R,1,,1,,Slightly slanted
+dy,al0044a,03_tsss_3_SS_1M2P_30_90_130_R,1,,1,,Slightly slanted
+dy,al0044a,04_tsss_4_SS_0M3P_15_90_130_R,1,,1,,Slightly slanted
+dy,al0044a,05_tsss_5_SS_1M2P_15_90_20_R,1,,1,,Slightly slanted
+dy,al0044a,06_tsss_6_SS_1M2P_15_390_130_R,1,,1,,Slightly slanted
+dy,al0044a,07_tsss_7_SS_OFF2,1,,1,,Slightly slanted
+dy,al0044a,08_tsss_8_SS_1M2P_15_90_130_L,1,,1,,Slightly slanted
+dy,al0044a,09_tsss_9_SS_1M2P_15_90_130_BILATERAL,1,,1,,Slightly slanted
+dy,al0059a,01_tsss_1_REST1,1,1,,,Squashed and poor alignment
+et,al0004a,01_DBS160202_OFF_tsss,1,,,,High ear point
+et,al0004a,02_DBS160202_ON05_tsss,1,,,,High ear point
+et,al0005a,DBS160211OFF_tsss,1,1,,,Points look very misaligned
+et,al00105a,01_tsss_1_OFF1,1,,,,
+et,al00105a,02_tsss_2_L15V,1,,,,
+et,al00105a,03_tsss_3_0-3+,1,,,,
+et,al00105a,04_tsss_4_20Hz,1,,,,
+et,al00105a,05_tsss_5_OFF2,1,,,,
+et,al00106a,01_tsss_1_OFF1,1,1,,,Forehead points far down
+et,al00106a,02_tsss_2_L15V,1,1,,,Forehead points far down
+et,al00106a,03_tsss_3_L30V,1,1,,,Forehead points far down
+et,al00106a,04_tsss_4_0-3+,1,1,,,Forehead points far down
+et,al00106a,05_tsss_5_20Hz,1,1,,,Forehead points far down
+et,al00106a,06_tsss_6_390us,1,1,,,Forehead points far down
+et,al00106a,07_tsss_7_OFF2,1,1,,,Forehead points far down
+et,al0016a,01_DBSLMOFF1_tsss_mc,1,1,,,Noise point in head
+et,al0016a,02_DBSML_15_1M2P_130_090_tsss_mc,1,1,,,Noise point in head
+et,al0016a,03_DBSLM_30_1M2P_130_090_tsss_mc,1,1,,,Noise point in head
+et,al0016a,04_DBSLM_15_0M3P_130_090_tsss_mc,1,1,,,Noise point in head
+et,al0016a,05_DBSLM_15_1M2P_020_090_tsss_mc,1,1,,,Noise point in head
+et,al0016a,06_DBSLM_15_1M2P_130_390_tsss_mc,1,1,,,Noise point in head
+et,al0016a,07_DBSLM_OFF2_tsss_mc,1,1,,,Noise point in head
+et,al0052a,01_tsss_1_JS_OFF1_L1,1,,1,,Slightly slanted
+et,al0052a,02_tsss_2_JS_OFF1_RARMFLEX_L,1,,1,,Slightly slanted
+et,al0054a,01_tsss_1_OFF1,1,1,,,Noise point in head
+et,al0054a,02_tsss_2_OFF1_RARMFLEX,1,1,,,Noise point in head
+et,al0054a,03_tsss_3_1M2P_15_90_130,1,1,,,Noise point in head
+et,al0054a,04_tsss_4_1M2P_15_90_130_RARMFLEX,1,1,,,Noise point in head
+et,al0054a,05_tsss_5_1M2P_30_90_130,1,1,,,Noise point in head
+et,al0054a,06_tsss_6_0M3P_15_90_130,1,1,,,Noise point in head
+et,al0054a,07_tsss_7_1M2P_15_90_20,1,1,,,Noise point in head
+et,al0054a,08_tsss_8_1M2P_15_390_130,1,1,,,Noise point in head
+et,al0054a,09_tsss_9_OFF2,1,1,,,Noise point in head

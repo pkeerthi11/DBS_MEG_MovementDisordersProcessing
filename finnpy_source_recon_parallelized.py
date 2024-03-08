@@ -23,6 +23,10 @@ import finnpy.source_reconstruction.source_mesh_model as finnpy_sr_smm
 import finnpy.source_reconstruction.forward_model as finnpy_sr_fwd
 import finnpy.source_reconstruction.inverse_model as finnpy_sr_inv
 import finnpy.source_reconstruction.source_region_model as finnpy_sr_srm 
+import threadpoolctl
+threadpoolctl.threadpool_limits(limits=1, user_api='blas')
+
+    
 
 import finnpy.misc.timed_pool as tp
 
@@ -513,13 +517,16 @@ def transform_data(subj_name, data_path):
 
 
 #Initialize general paths
-fs_anatomy_path = '/storage/prerana/subjects/VerifySourceReconstructionPipeline/fsaverage/'
+#fs_anatomy_path = '/storage/prerana/subjects/VerifySourceReconstructionPipeline/fsaverage/'
 
 #anatomy_path = '/storage/prerana/subjects/pd/'
 #fs_path = '/usr/local/freesurfer/7.4.1-1/'
 
-anatomy_path = '/mnt/VerifySourceReconstructionPipeline'
-fs_path =  '/usr/local/freesurfer/7.4.1/'
+
+#fs_anatomy_path = '/storage/prerana/subjects/pd/fsaverage/'
+anatomy_path = '/storage/prerana/subjects/VerifySourceReconstructionPipeline/'
+fs_path =  '/usr/local/freesurfer/7.4.1-1/'
+fs_anatomy_path = '/usr/local/freesurfer/7.4.1-1/subjects/fsaverage/'
 
 sensor_cov_path = '/storage/prerana/sensor_covariance_file.fif'
 cov_path = '/storage/prerana/sensor_covariance_file_processed'
